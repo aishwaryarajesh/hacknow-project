@@ -1,29 +1,13 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: courier-new;
-  background-color: #92c4ea;
-  //background-image: url("https://hdwallsource.com/img/2014/4/free-background-wallpaper-22918-23554-hd-wallpapers.jpg");
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.Easy {
-  background-color: RGBa(61, 214, 208, 0.85) !important;
-  color: RGB(224, 225, 226) !important;
-  //background-color: RGBa(241,110,110,1) !important;
-  //color: RGB(185,136,136) !important;
-}
-.Normal {
-  background-color: RGBa(13, 171, 118, 0.85) !important;
-  color: RGB(224, 225, 226) !important;
-  //background-color: RGBa(131,201,181,1) !important;
-  //color: RGB(185,136,136) !important;
-}
-.Difficult {
-  background-color: RGBa(240, 113, 45, 0.85) !important;
-  color: RGB(224, 225, 226) !important;  
-  //background-color: RGBa(176,231,255,1) !important;
-  //color: RGB(185,136,136) !important;
-}
-.button:active {
-  border: solid;
-  border-color: RGBa(240, 240, 240, 0.3);
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
